@@ -8,9 +8,8 @@ namespace ex1
         {
             int meses = 30;
             Console.WriteLine("Quantos meses você deseja somar?");
-            int quantidade = Convert.ToInt32(Console.ReadLine());
+            int quantidade = Util.GetInt();
             
-
             int total = meses * quantidade;
 
             Console.WriteLine($"O total de dias é {total}.");
